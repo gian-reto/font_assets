@@ -13,6 +13,7 @@ module FontAssets
 
     def access_control_headers
       {
+        "Origin" => origin,
         "Access-Control-Allow-Origin" => origin,
         "Access-Control-Allow-Methods" => "GET",
         "Access-Control-Allow-Headers" => "x-requested-with",
