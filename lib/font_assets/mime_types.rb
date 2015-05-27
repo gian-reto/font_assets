@@ -8,7 +8,9 @@ module FontAssets
       '.otf' => 'application/x-font-otf',
       '.woff' => 'application/x-font-woff',
       '.woff2' => 'application/x-font-woff2',
-      '.mp4' => 'video/mp4'
+      '.mp4' => 'video/mp4',
+      '.jpeg' => 'image/jpeg',
+      '.jpg' => 'image/jpeg'
     }
 
     def initialize(types, default = DEFAULT_TYPE.dup)
